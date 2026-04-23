@@ -151,7 +151,7 @@ pin-project = "1.0.11" # don't pin because they yank crates from cargo
 pretty_assertions = "=1.4.0"
 prost = "0.11"
 prost-build = "0.11"
-rand = "=0.8.5"
+rand = "=0.8.6"
 regex = "^1.7.0"
 reqwest = { version = "=0.12.5", default-features = false, features = ["rustls-tls", "stream", "gzip", "brotli", "socks", "json", "http2"] } # pinned because of https://github.com/seanmonstar/reqwest/pull/1955
 ring = "^0.17.0"
